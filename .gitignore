@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+out-tsc/
+tmp/
+.angular/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+sessionSecretCommand.txt
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# IDE and editor files
+.vscode/
+.idea/
+.history/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary and unrelated files
+New folder/
+New folder (2)/
+oldHtml/
+angularFix.txt
+paletaBoja.txt
+groceryStore.zip
+
+# Local screenshots
+testBaza1.PNG
+testBaza2.PNG

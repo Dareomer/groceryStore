@@ -1,0 +1,1106 @@
+[
+  {
+    "_id": {
+      "$oid": "68a000000000000000000001"
+    },
+    "username": "gt_manager_001",
+    "password": "$2b$10$HCrz7SFPoq5FPyDoCCCBWuQWBKpvtVXCCDHthVpIaN.d35bL8xEqe",
+    "email": "gt_manager_001@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000001"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000002"
+    },
+    "username": "gt_employee_002",
+    "password": "$2b$10$F07n70I9oj5ab8aUyc2n6.jIIC7LWXKv7gZzTEw.A.whggyeMOPDi",
+    "email": "gt_employee_002@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000001"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000003"
+    },
+    "username": "gt_employee_003",
+    "password": "$2b$10$kE0XvbIYLUpDHYCgra8cTOgev9vGIS7A5XAU5RFAvZodM1OoTSD1q",
+    "email": "gt_employee_003@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000001"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000004"
+    },
+    "username": "gt_employee_004",
+    "password": "$2b$10$Rvfse/F7rZOTaWJcWY/u9uV3uEmafrHrh4OJrGxa1gh.B.mf3Y2bO",
+    "email": "gt_employee_004@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000001"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000005"
+    },
+    "username": "gt_manager_005",
+    "password": "$2b$10$KN8Dwn/2xo2p8jt1SqUuo.5xKfPXZnhTSON1If7BsLZhoGAiWv/pa",
+    "email": "gt_manager_005@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000002"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000006"
+    },
+    "username": "gt_employee_006",
+    "password": "$2b$10$fab.xfXiD5m3sik0T3wE4..SV/pUMKr0szKKa2GuVPOD2rCXuysf6",
+    "email": "gt_employee_006@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000002"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000007"
+    },
+    "username": "gt_employee_007",
+    "password": "$2b$10$j6T9NxRHKHLtjKdmKFF4IOQGIGMBOfeL53DO8QDZQT05X05Znf5n.",
+    "email": "gt_employee_007@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000002"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000008"
+    },
+    "username": "gt_employee_008",
+    "password": "$2b$10$R2yZ.VNml6WsHIAxbDaSCu43zrwqMns.m44upvPPpu.7IjKc1GEC6",
+    "email": "gt_employee_008@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000002"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000009"
+    },
+    "username": "gt_manager_009",
+    "password": "$2b$10$aR9.fF8M/BwrvkXjvxVbhefLnm3Be7poN7Den7UGFIwcESy4roEPq",
+    "email": "gt_manager_009@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000003"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000000a"
+    },
+    "username": "gt_manager_010",
+    "password": "$2b$10$lBCObpPu.uacFch23XR6QuQF0B4S8WqFsdKpjLx9Zlt6evYAGlf/C",
+    "email": "gt_manager_010@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000003"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000000b"
+    },
+    "username": "gt_employee_011",
+    "password": "$2b$10$gVTV.Q.nsesWpBrSI3mAPu2R9DyQA8j3qUHHW699Lf0W2FB635OkW",
+    "email": "gt_employee_011@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000003"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000000c"
+    },
+    "username": "gt_employee_012",
+    "password": "$2b$10$88FXlx0HXnLRf4mFL1KV5OwwOm70KMmupTbUAGt6haZ06gTbN.aKm",
+    "email": "gt_employee_012@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000003"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000000d"
+    },
+    "username": "gt_manager_013",
+    "password": "$2b$10$xFfs0Y/Ae1fkdnkfeVNgUeYDbM2bzIrkVIZm/UPgqqwTdgLDvAi0u",
+    "email": "gt_manager_013@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000004"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000000e"
+    },
+    "username": "gt_employee_014",
+    "password": "$2b$10$5ug/DRr1Gw0mQifCKVY4oezsm1bRqTeZePeq9AzFvb13ucfjcFZ/i",
+    "email": "gt_employee_014@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000004"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000000f"
+    },
+    "username": "gt_employee_015",
+    "password": "$2b$10$sWD.NbpSuZYDaczPMqp79.7uX8bqE2lGiqYipHsNwngCTkDYWn/aa",
+    "email": "gt_employee_015@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000004"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000010"
+    },
+    "username": "gt_employee_016",
+    "password": "$2b$10$.EurLe4890bNXMsXbY3WXeZjgUk/ssfiiieYEEvmGlAYVI2Oh5P1e",
+    "email": "gt_employee_016@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000004"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000011"
+    },
+    "username": "gt_manager_017",
+    "password": "$2b$10$mIWvLFXstSrKKhXVGHBm3.BAT7oTu4sD13k6gsj0EpH7hjYfllNIO",
+    "email": "gt_manager_017@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000005"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000012"
+    },
+    "username": "gt_employee_018",
+    "password": "$2b$10$qVg5my3W9QT.l2w5N1.Yfuj0zO3DuV6BklwPX2ec7akLIC6uQ2DYO",
+    "email": "gt_employee_018@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000005"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000013"
+    },
+    "username": "gt_employee_019",
+    "password": "$2b$10$dPOvOT23FnRsVB7wdW5KYeDcDsBmnJSnTdiyfh.yN4qaXiPzMSD4q",
+    "email": "gt_employee_019@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000005"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000014"
+    },
+    "username": "gt_employee_020",
+    "password": "$2b$10$eOmEhmHPCwSiLCPOs3fnqOAisYUnOzijL8Dt6b5ISKjODKx4Kt41O",
+    "email": "gt_employee_020@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000005"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000015"
+    },
+    "username": "gt_manager_021",
+    "password": "$2b$10$XaoR0FlzXKWbhG/P6JmNBeW73ns3QCCnEbfZUiX0xVfGeexwJvNpu",
+    "email": "gt_manager_021@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000006"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000016"
+    },
+    "username": "gt_manager_022",
+    "password": "$2b$10$5DSnAQoD0m5D09F5Bnp3ae4Zp8KjthB0ziiIixBgD/SKbI8WjeyMe",
+    "email": "gt_manager_022@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000006"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000017"
+    },
+    "username": "gt_employee_023",
+    "password": "$2b$10$OA3mAQINGOrRKeqvzItarOUKBka4pWAqh8wMvSG7AVlnFhz5r2sd6",
+    "email": "gt_employee_023@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000006"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000018"
+    },
+    "username": "gt_employee_024",
+    "password": "$2b$10$gXrlq3U9zFvLUNF/Tla65OpnZ8q/0KurD0phtnjYrZEtXuG7ZL3a.",
+    "email": "gt_employee_024@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000006"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000019"
+    },
+    "username": "gt_manager_025",
+    "password": "$2b$10$clvr9beLaaBXDfgfvOVgmeLczPwLv6kq4l5NPjpAo5uaPEj2iIKTO",
+    "email": "gt_manager_025@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000007"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000001a"
+    },
+    "username": "gt_employee_026",
+    "password": "$2b$10$mfpCVSUHuN4imliQs240YeWXmcGKhmB0k6syAIqfazZ8h.79ynMk.",
+    "email": "gt_employee_026@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000007"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000001b"
+    },
+    "username": "gt_employee_027",
+    "password": "$2b$10$mCor354.vTosVsnqBfyQB.zdJGJVqbVqr3KeBnVSvuLaPGxgaT9pO",
+    "email": "gt_employee_027@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000007"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000001c"
+    },
+    "username": "gt_employee_028",
+    "password": "$2b$10$aRoBJ1/zfodQeMNXDSCoO.AUEzWMVFIYjpv8CHTQ5hRltSmp7XXvm",
+    "email": "gt_employee_028@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000007"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000001d"
+    },
+    "username": "gt_manager_029",
+    "password": "$2b$10$zWaN9GwUqzZi96de9OnQ.uirSBvR391p9M3aQAO8DIi8s0g.ZuwhW",
+    "email": "gt_manager_029@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000008"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000001e"
+    },
+    "username": "gt_employee_030",
+    "password": "$2b$10$mto6KN0PDThWVHEvru.aceokCU0j64Ixp0wQTEmGI2GNnqOes6VbO",
+    "email": "gt_employee_030@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000008"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000001f"
+    },
+    "username": "gt_employee_031",
+    "password": "$2b$10$Yl7NVx2AJGlUCHADSBowfeIHMH7YiFgnaBdrmwi1v3vljL/D5Mtb2",
+    "email": "gt_employee_031@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000008"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000020"
+    },
+    "username": "gt_employee_032",
+    "password": "$2b$10$tZoyL8bAXE5fASlxVCOjXeuxM9HTJVTn.xvrMFhTumZ74IF0TU1Cu",
+    "email": "gt_employee_032@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000008"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000021"
+    },
+    "username": "gt_manager_033",
+    "password": "$2b$10$neoH4GDACGxhX0ACNYJwZOnlXmoZDzCZ1XMtJ5LGoWmyUm68EO7hC",
+    "email": "gt_manager_033@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000009"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000022"
+    },
+    "username": "gt_manager_034",
+    "password": "$2b$10$rLFBzbkeHcpWuACz7V2xY.EGMhTRn0r7d8zEEH8Fyg0mRvaBH4Xu2",
+    "email": "gt_manager_034@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000009"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000023"
+    },
+    "username": "gt_employee_035",
+    "password": "$2b$10$rsZWcy7U7v1UQ7e9jhJY9efgf1lu.CItv8GafvB63wphisM.Sczzu",
+    "email": "gt_employee_035@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000009"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000024"
+    },
+    "username": "gt_employee_036",
+    "password": "$2b$10$eerXDrc60Dd2SBuYNEmiE.f02moHMgIdYmj9xkoucCw48zgP83TdG",
+    "email": "gt_employee_036@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000009"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000025"
+    },
+    "username": "gt_manager_037",
+    "password": "$2b$10$LnkzXEhficUkK4Dex4AnkOfyfBwNTdAxA5K5fZL63Cj512n3oMnpS",
+    "email": "gt_manager_037@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "67000000000000000000000a"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000026"
+    },
+    "username": "gt_employee_038",
+    "password": "$2b$10$CXSm15oZmWDWi3ky1yd9peNaiE.CbrjOkx2biByvd8JeutmXELJsW",
+    "email": "gt_employee_038@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000a"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000027"
+    },
+    "username": "gt_employee_039",
+    "password": "$2b$10$ze8uA32KeAeXLdIeX.YkpeVKpJ/WpWevTnYKE9m95RgAiKAyFsNiG",
+    "email": "gt_employee_039@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000a"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000028"
+    },
+    "username": "gt_employee_040",
+    "password": "$2b$10$UJARkZbbbywgyQ5vlujaDu4kWibTEpN4l.5LyX7xo6NKZKFgrx13e",
+    "email": "gt_employee_040@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000a"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000029"
+    },
+    "username": "gt_manager_041",
+    "password": "$2b$10$vTtipyIglSBTAWyXFLPbyuquHPspSBn/rg/k62.O8pVQu4nvryyCe",
+    "email": "gt_manager_041@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "67000000000000000000000b"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000002a"
+    },
+    "username": "gt_employee_042",
+    "password": "$2b$10$Aj0jVQRK6hNTRUycwBxsFODkxIKMPoNbPT6O5SM7uiX48xSkygs/O",
+    "email": "gt_employee_042@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000b"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000002b"
+    },
+    "username": "gt_employee_043",
+    "password": "$2b$10$lk4im/FLd4Y1wBHVy4B4EeQJoa9QLUNGIGM7HmIK.TWG1t9bYgnw6",
+    "email": "gt_employee_043@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000b"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000002c"
+    },
+    "username": "gt_employee_044",
+    "password": "$2b$10$6AwfhXchA3LrJhATlwVRFutkUGIV/W8lbr/LTG5T3DgdOVfrK.gSG",
+    "email": "gt_employee_044@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000b"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000002d"
+    },
+    "username": "gt_manager_045",
+    "password": "$2b$10$340DEGiwtXKW5u04LbmB1.jaCnjrg3GKfE.p2aQy7l/zyhzngcpPS",
+    "email": "gt_manager_045@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "67000000000000000000000c"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000002e"
+    },
+    "username": "gt_manager_046",
+    "password": "$2b$10$IdW1PVR/aSeBMnbIYj6sE.6S42Ignup13L12VaGq15tz09.m4dBTC",
+    "email": "gt_manager_046@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "67000000000000000000000c"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000002f"
+    },
+    "username": "gt_employee_047",
+    "password": "$2b$10$VMBjlzNDko/FT.c3E5Za2ek8eyDs3vo1IV3VfxoUSnLhpPAkD5Npi",
+    "email": "gt_employee_047@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000c"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000030"
+    },
+    "username": "gt_employee_048",
+    "password": "$2b$10$cWJ7g03MdPUifqjMmhWoMe4qWXQmeOLoEw0do9qSq/O5XDdo2C/rm",
+    "email": "gt_employee_048@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000c"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000031"
+    },
+    "username": "gt_manager_049",
+    "password": "$2b$10$Ug40Lau.tME5ccmWPPLzl.rZJlFwKNHfO1h8CrWMpG6KsPGDvPvwC",
+    "email": "gt_manager_049@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "67000000000000000000000d"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000032"
+    },
+    "username": "gt_employee_050",
+    "password": "$2b$10$KhJxzShlUFr.r83LsvSHPuMgY0xfl88PIWQ2y8UhxIPTWl.6PYMf.",
+    "email": "gt_employee_050@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000d"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000033"
+    },
+    "username": "gt_employee_051",
+    "password": "$2b$10$k4crBdNOH51IE/uYz129nOVikcLJK/.IDE5w8MkvO6tFv4vPjBes.",
+    "email": "gt_employee_051@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000d"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000034"
+    },
+    "username": "gt_employee_052",
+    "password": "$2b$10$cgXOc0TXeaixplJlQWpyG.PZNHjQu7Y7b9OxY0Fsd.eYJUrAewldi",
+    "email": "gt_employee_052@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000d"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000035"
+    },
+    "username": "gt_manager_053",
+    "password": "$2b$10$4GHCS5BGHsfpPv.zEIFLg.ft3TQ6vBUVkl58./TQwxttRvy0uF5K2",
+    "email": "gt_manager_053@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "67000000000000000000000e"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000036"
+    },
+    "username": "gt_employee_054",
+    "password": "$2b$10$00Ukd0GL7Z7advut4qwGsO/bfVmE.btc7kj5x9hvYYaApH3vYZijS",
+    "email": "gt_employee_054@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000e"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000037"
+    },
+    "username": "gt_employee_055",
+    "password": "$2b$10$GYZwQsAy6LNbfBPJj5pFYOklCVpK2K1tyRvOJGO88ppmuA6Ud5LWi",
+    "email": "gt_employee_055@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000e"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000038"
+    },
+    "username": "gt_employee_056",
+    "password": "$2b$10$unwB1NGnDh1wNzAiUeLAJeXkam3cgSQL6hY6zSjtjY18bb0IYrWEy",
+    "email": "gt_employee_056@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000e"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000039"
+    },
+    "username": "gt_manager_057",
+    "password": "$2b$10$C/a9Bg1n0KPtJxXy9MLnWeytF3UDE0dDLq36AmhX3v.5MpM6XrznG",
+    "email": "gt_manager_057@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "67000000000000000000000f"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000003a"
+    },
+    "username": "gt_manager_058",
+    "password": "$2b$10$cyWKvElrSp9YiZdkhSin/ew5Ae37h2BMPCzmwo3R00Jk6Az6rJja.",
+    "email": "gt_manager_058@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "67000000000000000000000f"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000003b"
+    },
+    "username": "gt_employee_059",
+    "password": "$2b$10$bcLbPzembm5K3SfVi5yyU.eANnXatzb3FVqw5e8t0iVkeYSwy55CK",
+    "email": "gt_employee_059@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000f"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000003c"
+    },
+    "username": "gt_employee_060",
+    "password": "$2b$10$m33bUJVy5OQ5tpvXHqUe1O4.BZB9G6EkWMZcL6yjJK31isx9VBr6y",
+    "email": "gt_employee_060@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "67000000000000000000000f"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000003d"
+    },
+    "username": "gt_manager_061",
+    "password": "$2b$10$nYXEivktBmVP26Gki1eEAeyh/l7QNfnvP0VeMLypr2BFT21kzZMyW",
+    "email": "gt_manager_061@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000010"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000003e"
+    },
+    "username": "gt_employee_062",
+    "password": "$2b$10$JNxf/F/is3R8wfsqPVDBxuuPqZBVtEGxI8loobHe8yONjxk5mDUt.",
+    "email": "gt_employee_062@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000010"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000003f"
+    },
+    "username": "gt_employee_063",
+    "password": "$2b$10$sfi2.QfSkuXnMUyd54B/QukQcTbOi/UJPQdxPU7djeHAbN0/N7buG",
+    "email": "gt_employee_063@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000010"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000040"
+    },
+    "username": "gt_employee_064",
+    "password": "$2b$10$N72IYuWJ6fzRhoiO.KI5p.S6u0EuTKEN3N4/nrh1abpv4xzq.clXa",
+    "email": "gt_employee_064@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000010"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000041"
+    },
+    "username": "gt_manager_065",
+    "password": "$2b$10$Wh7NwEbxn3/khM93QuBKLemUvHvr4OON9qg2GrLoQVCighOl11Rzq",
+    "email": "gt_manager_065@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000011"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000042"
+    },
+    "username": "gt_employee_066",
+    "password": "$2b$10$bnxmohTo6Zai4YIOjaiTpOqs.aDQylr0Ng8pOwMhtVL/3hVqgNF9S",
+    "email": "gt_employee_066@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000011"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000043"
+    },
+    "username": "gt_employee_067",
+    "password": "$2b$10$v6umgy5e5nWi4Jlca04xp.3P9hlbiz.Nyp8uMWTiLm.8.r1asCJKq",
+    "email": "gt_employee_067@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000011"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000044"
+    },
+    "username": "gt_employee_068",
+    "password": "$2b$10$XTkJyUvnB9zoSWIWOnFsLuNtydqD4lskaPjLD7F7CbW.VApTtjTpO",
+    "email": "gt_employee_068@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000011"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000045"
+    },
+    "username": "gt_manager_069",
+    "password": "$2b$10$BMYkLAW8WMx6W4SBjKzoc.wiW4CRI723Gy.xhtkXzxsShaULq7d8S",
+    "email": "gt_manager_069@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000012"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000046"
+    },
+    "username": "gt_manager_070",
+    "password": "$2b$10$9iDpJlWtXQ4VV2ya1U6Ume/fMUF2GJyq7USznXb4h7k0CJTfwqkP6",
+    "email": "gt_manager_070@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000012"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000047"
+    },
+    "username": "gt_employee_071",
+    "password": "$2b$10$bICafM0QJo16Y.Auk0bpp.aUZgqsp8mzllb/C6LX2rjZZYmWQCV1K",
+    "email": "gt_employee_071@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000012"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000048"
+    },
+    "username": "gt_employee_072",
+    "password": "$2b$10$38qvVR/GJbF90D1ZVjbkyeQvjQnoDvE860fBD9O3J3pmAyfbDAtUC",
+    "email": "gt_employee_072@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000012"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000049"
+    },
+    "username": "gt_manager_073",
+    "password": "$2b$10$v1s5LNOddMpmElM71Lg.XOpncfqRdvBdxcavhfx3zJL79s28q45ey",
+    "email": "gt_manager_073@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000013"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000004a"
+    },
+    "username": "gt_employee_074",
+    "password": "$2b$10$sz7diD.5IMBh5ZMASLRIPu2AzrOXi7QOmMKqXDzMzSQ75dnfOsska",
+    "email": "gt_employee_074@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000013"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000004b"
+    },
+    "username": "gt_employee_075",
+    "password": "$2b$10$D62CSAZNbAXZTf74NjTkx.6zZufst007tl40QUck4Rfp3HUbnJk9i",
+    "email": "gt_employee_075@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000013"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000004c"
+    },
+    "username": "gt_employee_076",
+    "password": "$2b$10$yvFXyFEH4tQEw7EZwU/E9u4Ed3kr7L7W71A5yYOTdrQ0Vx2DBl3.O",
+    "email": "gt_employee_076@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000013"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000004d"
+    },
+    "username": "gt_manager_077",
+    "password": "$2b$10$S0isivlZIsz7kfnt/nVQDegLDGN6ufK.6tZB9Z/n0ylA1UP48GG2.",
+    "email": "gt_manager_077@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000014"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000004e"
+    },
+    "username": "gt_employee_078",
+    "password": "$2b$10$crQj1gtRg4jgrJNby4/r2ufmse3zqGXQaGQuSz1AkGHPc4gNlSwp.",
+    "email": "gt_employee_078@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000014"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000004f"
+    },
+    "username": "gt_employee_079",
+    "password": "$2b$10$KMlBnatLmmeXAHOAlgOmM./2zRosDKo8.sHSWTxHI0IwRXUbgrbna",
+    "email": "gt_employee_079@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000014"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000050"
+    },
+    "username": "gt_employee_080",
+    "password": "$2b$10$eSWi.voyDCFauQyRt4wuQON01ErCQCcx5TizNsiXZhklaXPc4OhE.",
+    "email": "gt_employee_080@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000014"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000051"
+    },
+    "username": "gt_manager_081",
+    "password": "$2b$10$YkCa2kn8s6.cxmHkxoWrN.0sEuUom/vP0F1Ve0mSk82/3/s3c0X1u",
+    "email": "gt_manager_081@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000015"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000052"
+    },
+    "username": "gt_manager_082",
+    "password": "$2b$10$MV4Din0WN0trCbh2OcSTYub5xQR7HIdF1AIwRqRmzqJVcfauNt.yO",
+    "email": "gt_manager_082@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000015"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000053"
+    },
+    "username": "gt_employee_083",
+    "password": "$2b$10$WIDZj1Xxx9uRuIBtUzOwceACQZ.FPlMPIj/vhRgafZLvcHXA/I3XC",
+    "email": "gt_employee_083@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000015"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000054"
+    },
+    "username": "gt_employee_084",
+    "password": "$2b$10$WsW/SY7qFbWymRCN/0KWFu79bODFt3fMYCAKRvaLYOSFOSCvNp6eC",
+    "email": "gt_employee_084@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000015"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000055"
+    },
+    "username": "gt_manager_085",
+    "password": "$2b$10$k8Pzlp2.cCH/hLHqt/I1GOQ8l42PPNOLWNFxo3BmbyL/IamaAsgn.",
+    "email": "gt_manager_085@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000016"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000056"
+    },
+    "username": "gt_employee_086",
+    "password": "$2b$10$JIPsJD1WgxHa7mTdw7JGueuZH40FCusf5S1ux/dsjf5TADDdPLyh.",
+    "email": "gt_employee_086@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000016"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000057"
+    },
+    "username": "gt_employee_087",
+    "password": "$2b$10$sgpB.rKk9IfXCzJaZJC6Wu18xkUZoQYETOGpc5ZXhgnB4Spe0tiHG",
+    "email": "gt_employee_087@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000016"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000058"
+    },
+    "username": "gt_employee_088",
+    "password": "$2b$10$sQUd26SfcI756BdZtdgI.e2cSvxo9iEROX4p.lomiaX6gDDClDoCm",
+    "email": "gt_employee_088@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000016"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a000000000000000000059"
+    },
+    "username": "gt_manager_089",
+    "password": "$2b$10$ueznqgyac2K5gaoQXnGb.O/AVKXjPv/OPhc2ZbR/NX4GpkFLpqPlq",
+    "email": "gt_manager_089@example.test",
+    "role": 1,
+    "department": {
+      "$oid": "670000000000000000000017"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000005a"
+    },
+    "username": "gt_employee_090",
+    "password": "$2b$10$HydIOv8FIjG7ZaVaJrVyWudegCaGNGUGpzQeauCqq3kNrr2VYhxj2",
+    "email": "gt_employee_090@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000017"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000005b"
+    },
+    "username": "gt_employee_091",
+    "password": "$2b$10$hEpF2MQE0bOBDIEc47y/DOG/8jmV7lo/0W9hiqt//2l1AEe6qo7wa",
+    "email": "gt_employee_091@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000017"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68a00000000000000000005c"
+    },
+    "username": "gt_employee_092",
+    "password": "$2b$10$iX8tca6058CkA2k30KCShuB.OBbuSZhF84VDb6RUAdKS5wZybGGNi",
+    "email": "gt_employee_092@example.test",
+    "role": 2,
+    "department": {
+      "$oid": "670000000000000000000017"
+    }
+  }
+]

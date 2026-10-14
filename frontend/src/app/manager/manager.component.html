@@ -1,0 +1,135 @@
+<main class="page">
+    <div class="container">
+        <header class="page-header">
+            <div>
+                <div class="brand">Grocery<span>Store</span></div>
+                <h1>Manager dashboard</h1>
+                <p class="subheading">Manage your team and departments</p>
+            </div>
+            <button type="button" class="btn btn-outline" (click)="logout()">Log out</button>
+        </header>
+
+        <div class="dashboard-grid">
+            <div class="list-column">
+                <section class="panel">
+                    <div class="section-heading">
+                        <div>
+                            <h2>Employees</h2>
+                            <p class="subheading">Browse employees by department</p>
+                        </div>
+                    </div>
+                    <div class="button-row">
+                        <button type="button" class="btn btn-primary" (click)="getEmployeesNode()">
+                            Current department
+                        </button>
+                        <button type="button" class="btn btn-outline" (click)="getEmployeesDescendants()">
+                            Include subdepartments
+                        </button>
+                    </div>
+                    <ul class="user-list">
+                        @for (employee of employees; track employee._id) {
+                        <li class="user-item">
+                            <div class="user-info">
+                                <strong>{{employee.username}}</strong><span>{{employee.email}}</span>
+                            </div>
+                            <button type="button" class="btn btn-small btn-outline" (click)="changeUser(employee._id)">
+                                Edit
+                            </button>
+                        </li>
+                        } @empty {
+                        <li class="empty-state">No employees to display.</li>
+                        }
+                    </ul>
+                </section>
+
+                <section class="panel">
+                    <div class="section-heading">
+                        <div>
+                            <h2>Managers</h2>
+                            <p class="subheading">Browse managers by department</p>
+                        </div>
+                    </div>
+                    <div class="button-row">
+                        <button type="button" class="btn btn-primary" (click)="getManagersNode()">
+                            Current department
+                        </button>
+                        <button type="button" class="btn btn-outline" (click)="getManagersDescendants()">
+                            Include subdepartments
+                        </button>
+                    </div>
+                    <ul class="user-list">
+                        @for (manager of managers; track manager._id) {
+                        <li class="user-item">
+                            <div class="user-info">
+                                <strong>{{manager.username}}</strong><span>{{manager.email}}</span>
+                            </div>
+                            @if (manager._id !== currentId) {
+                            <button type="button" class="btn btn-small btn-outline" (click)="changeUser(manager._id)">
+                                Edit
+                            </button>
+                            } @else { <span class="self-label">You</span> }
+                        </li>
+                        } @empty {
+                        <li class="empty-state">No managers to display.</li>
+                        }
+                    </ul>
+                </section>
+            </div>
+
+            <section class="panel create-panel">
+                <h2>Add a user</h2>
+                <p class="subheading">Create a manager or employee account</p>
+                <div class="form-field">
+                    <label for="newUsername">Username</label>
+                    <input
+                        id="newUsername"
+                        type="text"
+                        [(ngModel)]="newUsername"
+                        name="username"
+                        placeholder="Username"
+                    />
+                </div>
+                <div class="form-field">
+                    <label for="newPassword">Password</label>
+                    <input
+                        id="newPassword"
+                        type="password"
+                        [(ngModel)]="newPassword"
+                        name="password"
+                        placeholder="Password"
+                    />
+                </div>
+                <div class="form-field">
+                    <label for="newEmail">Email</label>
+                    <input
+                        id="newEmail"
+                        type="email"
+                        [(ngModel)]="newEmail"
+                        name="email"
+                        placeholder="Email address"
+                    />
+                </div>
+                <div class="form-field">
+                    <label for="newDepartment">Department</label>
+                    <select id="newDepartment" [(ngModel)]="newDepartment" name="department">
+                        <option value="" disabled>Select department</option>
+                        @for (store of departments; track store._id) {
+                        <option [value]="store._id">{{store.name}}</option>
+                        }
+                    </select>
+                </div>
+                <fieldset class="role-field">
+                    <legend>Role</legend>
+                    <label class="radio-option">
+                    <input type="radio" name="newRole" [(ngModel)]="newRole" [value]="1" /> Manager</label>\
+                    <label class="radio-option">
+                    <input type="radio" name="newRole" [(ngModel)]="newRole" [value]="2" /> Employee</label>
+                </fieldset>
+                <button type="button" class="btn btn-primary full-width" (click)="insertUser()">Add user</button>
+                @if (insertSuccesMessage) {
+                <p class="feedback" [style.color]="successColor">{{insertSuccesMessage}}</p>
+                }
+            </section>
+        </div>
+    </div>
+</main>

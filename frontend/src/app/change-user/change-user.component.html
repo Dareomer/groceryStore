@@ -1,0 +1,42 @@
+<main class="page">
+    <div class="container narrow-form">
+        <header class="page-header">
+            <div>
+                <div class="brand">Grocery<span>Store</span></div>
+                <h1>Edit user</h1>
+                <p class="subheading">Update account details and permissions</p>
+            </div>
+        </header>
+        <section class="panel">
+            <div class="form-field">
+                <label for="username">Username</label>
+                <input id="username" type="text" [(ngModel)]="username" name="username" />
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label><input id="email" type="email" [(ngModel)]="email" name="email" />
+            </div>
+            <div class="form-field">
+                <label for="department">Department</label>
+                <select id="department" [(ngModel)]="department" name="department">
+                    @for (store of departments; track store._id) {
+                    <option [value]="store._id">{{store.name}}</option>
+                    }
+                </select>
+            </div>
+            <fieldset class="role-field">
+                <legend>Role</legend>
+                <label class="radio-option">
+                <input type="radio" name="role" [(ngModel)]="role" [value]="1" /> Manager</label>
+                <label class="radio-option">
+                <input type="radio" name="role" [(ngModel)]="role" [value]="2" /> Employee</label>
+            </fieldset>
+            <div class="action-row">
+                <button type="button" class="btn btn-primary" (click)="update()">Save changes</button>
+                <button type="button" class="btn btn-outline" (click)="cancel()">Cancel</button>
+                <button type="button" class="btn btn-danger" (click)="delete()">Delete user</button>
+                <p style="color: red">{{errorMsg}}</p>
+            </div>
+        </section>
+    </div>
+</main>
+

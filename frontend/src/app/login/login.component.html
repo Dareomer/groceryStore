@@ -1,0 +1,20 @@
+<main class="page login-page">
+  <section class="panel login-panel">
+    <div class="brand">Grocery<span>Store</span></div>
+    <h1>Welcome back</h1>
+    <p class="subheading">Sign in to your account</p>
+
+    <div class="form-field">
+      <label for="username">Username</label>
+      <input id="username" type="text" name="username" [(ngModel)]="username" autocomplete="username" placeholder="Enter username">
+    </div>
+    <div class="form-field">
+      <label for="password">Password</label>
+      <input id="password" type="password" name="password" [(ngModel)]="password" autocomplete="current-password" placeholder="Enter password">
+    </div>
+    <button type="button" class="btn btn-primary full-width" (click)="login()">Log in</button>
+    @if (errorMsg) {
+      <p class="feedback error" [style.color]="boja">{{errorMsg}}</p>
+    }
+  </section>
+</main>

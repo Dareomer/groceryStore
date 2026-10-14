@@ -1,0 +1,30 @@
+<main class="page">
+    <div class="container narrow">
+        <header class="page-header">
+            <div>
+                <div class="brand">Grocery<span>Store</span></div>
+                <h1>Employee dashboard</h1>
+                <p class="subheading">View your team members</p>
+            </div>
+            <button type="button" class="btn btn-outline" (click)="logout()">Log out</button>
+        </header>
+        <section class="panel">
+            <h2>Employees</h2>
+            <p class="subheading">Choose which departments to include</p>
+            <div class="button-row">
+                <button type="button" class="btn btn-primary" (click)="getEmployeesNode()">Current department</button>
+                <button type="button" class="btn btn-outline" (click)="getEmployeesDescendants()">Include subdepartments</button>
+            </div>
+            <ul class="user-list">
+                @for (employee of employees; track employee._id) {
+                <li class="user-item">
+                    <div class="user-info"><strong>{{employee.username}}</strong><span>{{employee.email}}</span></div>
+                </li>
+                } @empty {
+                <li class="empty-state">No employees to display.</li>
+                }
+            </ul>
+        </section>
+    </div>
+</main>
+
